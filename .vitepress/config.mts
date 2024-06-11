@@ -4,6 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Basjoofan",
   description: "Continuous Test",
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/images/basjoofan.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/images/basjoofan.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
