@@ -8,11 +8,14 @@ hero:
   tagline: cloud native http api echo test and performance test
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /guide/markdown-examples
+      text: What is Basjoofan?
+      link: /guide/what-is-basjoofan
     - theme: alt
-      text: API Examples
-      link: /guide/api-examples
+      text: Quickstart
+      link: /guide/quick-start
+  image:
+    src: /images/icon.svg
+    alt: Basjoofan
 
 features:
   - title: Feature A

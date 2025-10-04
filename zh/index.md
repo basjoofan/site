@@ -8,11 +8,14 @@ hero:
   tagline: 云原生接口回波测试和性能测试
   actions:
     - theme: brand
-      text: 马克当扩展示例
-      link: /zh/guide/markdown-examples
+      text: 芭蕉扇是什么？
+      link: /zh/guide/what-is-basjoofan
     - theme: alt
-      text: 运行时接口示例
-      link: /zh/guide/api-examples
+      text: 快速开始
+      link: /zh/guide/quick-start
+  image:
+    src: /images/icon.svg
+    alt: Basjoofan
 
 features:
   - title: Feature A
