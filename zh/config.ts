@@ -2,7 +2,7 @@ import { defineAdditionalConfig } from 'vitepress'
 
 export default defineAdditionalConfig({
     title: "芭蕉扇",
-    description: "持续测试|云原生接口回波测试和性能测试",
+    description: "移动应用",
     themeConfig: {
         nav: [
             { text: '首页', link: '/zh' },
@@ -17,13 +17,13 @@ export default defineAdditionalConfig({
                 ]
             }]
         },
-        editLink: {
-            pattern: 'https://github.com/basjoofan/site/edit/main/docs/:path',
-            text: '在 GitHub 上编辑此页面'
-        },
+        // editLink: {
+        //     pattern: 'https://github.com/basjoofan/site/edit/main/docs/:path',
+        //     text: '在 GitHub 上编辑此页面'
+        // },
         footer: {
-            message: '基于 MIT 或 Apache 2.0 许可发布',
-            copyright: '版权所有 © 2025 芭蕉扇'
+            // message: '基于 MIT 或 Apache 2.0 许可发布',
+            copyright: '© 2026 芭蕉扇 <a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2026002518号</a>'
         },
         docFooter: {
             prev: '上一页',

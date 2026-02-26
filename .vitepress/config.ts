@@ -34,13 +34,13 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/basjoofan' }
     ],
-    editLink: {
-      pattern: 'https://github.com/basjoofan/site/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/basjoofan/site/edit/main/docs/:path',
+    //   text: 'Edit this page on GitHub'
+    // },
     footer: {
-      message: 'Released under the MIT or Apache 2.0 License',
-      copyright: 'Copyright © 2025 Basjoofan'
+      // message: 'Released under the MIT or Apache 2.0 License',
+      copyright: '© 2026 Basjoofan  <a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2026002518号</a>'
     },
   }
 })
