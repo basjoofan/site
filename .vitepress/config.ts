@@ -26,6 +26,7 @@ export default defineConfig({
       '/guide/': [{
         text: 'Guide',
         items: [
+          { text: 'Privacy Policy', link: '/guide/privacy' },
           { text: 'Markdown Examples', link: '/guide/markdown-examples' },
           { text: 'Runtime API Examples', link: '/guide/api-examples' }
         ]
