@@ -18,36 +18,39 @@ console.log(lang.value);
               <img class="icon" :src="app.icon" alt="Foodie" />
               <h2 class="name">{{ app.name }}</h2>
               <p class="text">{{ app.text }}</p>
-              <a :href="app.link.apple" target="_blank">
-                <img
-                  class="download"
-                  src="/badges/apple-app-store.svg"
-                  alt="Download on the Apple App Store"
-                />
-              </a>
-              <a :href="app.link.google" target="_blank">
-                <img
-                  class="download"
-                  src="/badges/google-play-store.svg"
-                  alt="Download on the Google Play Store"
-                />
-              </a>
-              <a :href="app.link.huawei" target="_blank">
-                <img
-                  class="download"
-                  src="/badges/huawei-app-gallery.svg"
-                  alt="Download on the Huawei App Gallery"
-                />
-              </a>
-              <p class="download">
-                <template v-if="lang.startsWith('zh')">
-                  各大安卓应用商店均可下载
-                </template>
-                <template v-else>
-                  Download on the<br />
-                  Android App Store
-                </template>
-              </p>
+              <div class="downloads">
+                <a :href="app.link.apple" target="_blank">
+                  <img
+                    class="download"
+                    src="/badges/apple-app-store.svg"
+                    alt="Download on the Apple App Store"
+                  />
+                </a>
+                <a :href="app.link.google" target="_blank">
+                  <img
+                    class="download"
+                    src="/badges/google-play-store.svg"
+                    alt="Download on the Google Play Store"
+                  />
+                </a>
+                <a :href="app.link.huawei" target="_blank">
+                  <img
+                    class="download"
+                    src="/badges/huawei-app-gallery.svg"
+                    alt="Download on the Huawei App Gallery"
+                  />
+                </a>
+                <p class="download">
+                  <template v-if="lang.startsWith('zh')">
+                    各大安卓应用商店均可下载
+                  </template>
+                  <template v-else>
+                    Download on the<br />
+                    Android App Store
+                  </template>
+                </p>
+                <p class="download"></p>
+              </div>
             </div>
           </div>
         </div>
@@ -133,6 +136,7 @@ console.log(lang.value);
   width: 6rem;
   height: 6rem;
   border-radius: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 .name {
@@ -140,9 +144,12 @@ console.log(lang.value);
   line-height: 2rem;
   font-weight: 600;
 }
+.downloads{
+    margin-top: 2rem;
+}
 .download {
   width: 12rem;
   height: 4rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 </style>
