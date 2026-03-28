@@ -5,18 +5,18 @@ layout: home
 apps:
   - name: Foodie
     text: Eat all delicacies
-    icon: /icon/foodie.png
+    icon: /icons/foodie.png
     link:
-      - ios: https://www.apple.com/cn/app-store/
-      - android: blank
-      - harmony: blank
+      apple: https://apps.apple.com/us/app/foodie-eat-every-yummy/id6760097955
+      google: https://play.google.com/store/apps/details?id=com.basjoofan.foodie&hl=en
+      huawei: https://appgallery.huawei.com/app/detail?id=com.basjoofan.foodie
   - name: Expect
     text: Conceive development
-    icon: /icon/new.png
+    icon: /icons/new.png
     link:
-      - ios: https://www.apple.com/cn/app-store/
-      - android: blank
-      - harmony: blank
+      apple: https://www.apple.com/cn/app-store/
+      # google: blank
+      # huawei: blank
 # hero:
 #   name: "Basjoofan"
 #   text: "Continuous Test"

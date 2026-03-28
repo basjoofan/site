@@ -5,6 +5,7 @@ import { useData } from "vitepress";
 const { Layout } = DefaultTheme;
 const { lang, frontmatter } = useData();
 const apps = computed(() => frontmatter.value.apps);
+console.log(lang.value);
 </script>
 
 <template>
@@ -17,16 +18,35 @@ const apps = computed(() => frontmatter.value.apps);
               <img class="icon" :src="app.icon" alt="Foodie" />
               <h2 class="name">{{ app.name }}</h2>
               <p class="text">{{ app.text }}</p>
-              <a href="https://www.apple.com/cn/app-store/">
+              <a :href="app.link.apple" target="_blank">
                 <img
                   class="download"
-                  src="./apple.png"
-                  alt="Download on the App Store"
+                  src="/badges/apple-app-store.svg"
+                  alt="Download on the Apple App Store"
+                />
+              </a>
+              <a :href="app.link.google" target="_blank">
+                <img
+                  class="download"
+                  src="/badges/google-play-store.svg"
+                  alt="Download on the Google Play Store"
+                />
+              </a>
+              <a :href="app.link.huawei" target="_blank">
+                <img
+                  class="download"
+                  src="/badges/huawei-app-gallery.svg"
+                  alt="Download on the Huawei App Gallery"
                 />
               </a>
               <p class="download">
-                Download on the<br />
-                Android App Store
+                <template v-if="lang.startsWith('zh')">
+                  各大安卓应用商店均可下载
+                </template>
+                <template v-else>
+                  Download on the<br />
+                  Android App Store
+                </template>
               </p>
             </div>
           </div>

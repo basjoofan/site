@@ -26,7 +26,6 @@ export default defineConfig({
       '/guide/': [{
         text: 'Guide',
         items: [
-          { text: 'Privacy Policy', link: '/guide/privacy' },
           { text: 'Markdown Examples', link: '/guide/markdown-examples' },
           { text: 'Runtime API Examples', link: '/guide/api-examples' }
         ]
@@ -41,7 +40,7 @@ export default defineConfig({
     // },
     footer: {
       // message: 'Released under the MIT or Apache 2.0 License',
-      copyright: '© 2026 Basjoofan  <a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2026002518号</a>'
+      copyright: '© 2026 Basjoofan &nbsp;&nbsp;&nbsp;&nbsp; <a href="/privacy">Privacy</a> &nbsp;&nbsp; <a href="https://beian.miit.gov.cn/" target="_blank">Liao ICP No.2026002518</a>'
     },
   }
 })

@@ -12,7 +12,6 @@ export default defineAdditionalConfig({
             '/zh/guide/': [{
                 text: '指南',
                 items: [
-                    { text: '隐私政策', link: '/zh/guide/privacy' },
                     { text: '马克当扩展示例', link: '/zh/guide/markdown-examples' },
                     { text: '运行时接口示例', link: '/zh/guide/api-examples' }
                 ]
@@ -24,7 +23,7 @@ export default defineAdditionalConfig({
         // },
         footer: {
             // message: '基于 MIT 或 Apache 2.0 许可发布',
-            copyright: '© 2026 芭蕉扇 <a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2026002518号</a>'
+            copyright: '© 2026 芭蕉扇 &nbsp;&nbsp;&nbsp;&nbsp; <a href="/privacy">隐私政策</a> &nbsp;&nbsp; <a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2026002518号</a>'
         },
         docFooter: {
             prev: '上一页',
