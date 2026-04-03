@@ -10,6 +10,7 @@ apps:
       apple: https://apps.apple.com/cn/app/%E5%90%83%E8%B4%A7-%E5%90%83%E9%81%8D%E6%89%80%E6%9C%89%E7%BE%8E%E9%A3%9F/id6760097955
       google: https://play.google.com/store/apps/details?id=com.basjoofan.foodie&hl=zh
       huawei: https://appgallery.huawei.com/app/detail?id=com.basjoofan.foodie
+    file: foodie-0.0.2.apk
   - name: 期待
     text: 构思开发中
     icon: /icons/new.png
