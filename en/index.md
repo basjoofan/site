@@ -10,7 +10,7 @@ apps:
       apple: https://apps.apple.com/us/app/foodie-eat-every-yummy/id6760097955
       google: https://play.google.com/store/apps/details?id=com.basjoofan.foodie&hl=en
       huawei: https://appgallery.huawei.com/app/detail?id=com.basjoofan.foodie
-    file: foodie-0.0.2.apk
+    file: foodie-0.2.0.apk
   - name: Expect
     text: Conceive development
     icon: /icons/new.png
