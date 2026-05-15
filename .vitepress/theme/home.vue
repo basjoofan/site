@@ -141,7 +141,7 @@ console.log(lang.value);
 .icon {
   width: 6rem;
   height: 6rem;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
