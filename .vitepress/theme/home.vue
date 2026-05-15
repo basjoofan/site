@@ -43,13 +43,13 @@ console.log(lang.value);
                 <p class="download">
                   <template v-if="lang.startsWith('zh')">
                     各大安卓应用商店均可<template v-if="app.file">
-                      <a :href="'/apps/' + app.file" target="_blank">下载</a>
+                      <a class="file" :href="'/apps/' + app.file" target="_blank">下载</a>
                     </template>
                     <template v-else>下载</template>
                   </template>
                   <template v-else>
                     <template v-if="app.file">
-                      <a :href="'/apps/' + app.file" target="_blank">Download</a>
+                      <a class="file" :href="'/apps/' + app.file" target="_blank">Download</a>
                     </template>
                     <template v-else>Download</template> on the<br />
                     Android App Store
@@ -157,5 +157,8 @@ console.log(lang.value);
   width: 12rem;
   height: 4rem;
   margin-top: 1rem;
+}
+.file {
+  color: var(--vp-c-purple-1);
 }
 </style>
